@@ -1,0 +1,23 @@
+# NexusMaps Plugin Configuration
+
+# Metrics collection interval in seconds
+metrics-interval-seconds: 10
+
+# Enable debug logging
+debug: false
+
+# Live map update interval in milliseconds (1000ms = 1 second)
+# Lower values make the map update faster but use more resources.
+# Default is 250ms (4 times per second).
+map-report-interval-ms: 250
+
+# Enable test mode
+test-mode: false
+
+# HTTP API domain (leave empty to use defaults based on test-mode)
+# Leave this as "" this is for testing purposes
+domain: ""
+
+# WebSocket URL
+# Leave this as "" this is for testing purposes
+websocket-url: ""

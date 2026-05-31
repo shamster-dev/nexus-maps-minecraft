@@ -1,0 +1,18 @@
+name: NexusMapsPlugin
+version: 1.0
+main: "it.littlesquad.Main"
+description: "NexusMaps server monitoring plugin"
+
+commands:
+  nexus_link:
+    description: "Link this server to the NexusMaps dashboard"
+    usage: "/<command> <api_key>"
+    permission: nexusmaps.admin
+
+permissions:
+  nexusmaps.admin:
+    description: "Allows managing NexusMaps plugin settings"
+    default: op
+  nexusmaps.staff:
+    description: "Marks a player as staff for NexusMaps tracking"
+    default: false
