@@ -1,6 +1,8 @@
 # Installation
 https://www.nexusmaps.xyz/docs
 
+If you do not want to customize data collection and just want the plugin please press on the "releases" tab on the right hand sidebar.
+
 ## Requirements
 
 - Java 21+
